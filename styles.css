@@ -1,0 +1,83 @@
+
+/* HOME PAGE CENTER BOX (FINAL)*/
+#center-box{
+	position: absolute;
+	width: 40%;
+	height: 240px;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	z-index: -10000;
+	overflow: hidden;
+	text-align: center;
+}
+
+@media (max-width: 1200px) {
+  #center-box {
+    width: 45%;
+  }
+}
+
+@media (max-width: 992px) {
+  #center-box {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #center-box {
+    width: 75%;
+  }
+}
+
+@media (max-width: 576px) {
+  #center-box {
+    width: 100%;
+  }
+}
+
+#centerLogo{
+	width: 192px;
+	height: 108px;
+}
+
+/*Add vertical scaling for centre box*/
+
+#homeCenterButton{
+	background-color: rgb(195, 211, 177);
+	border-color: black;
+}
+
+#homeCenterButton:hover{
+	background-color: rgb(155, 168, 141);
+}
+
+#indexBody{
+	background-image: url(images/homeBG.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#productBody{
+	background-color: rgb(248, 248, 248);
+}
+
+#productContainer{
+	background-color: white;
+	padding: 0 !important;
+}
+
+#productBlurb{
+	padding : 35px 35px 20px 35px;
+}
+
+#productCare{
+	padding : 20px 35px 35px 35px;;
+}
+
+footer{
+	background-color: white;
+	font-size: 8px;
+	padding: 35px;
+	text-align: center;
+}
