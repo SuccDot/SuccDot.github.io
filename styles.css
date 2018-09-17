@@ -1,55 +1,11 @@
-
-/* HOME PAGE CENTER BOX (FINAL)*/
-#center-box{
-	position: absolute;
-	width: 40%;
-	height: 240px;
-	top:50%;
-	left:50%;
-	transform: translate(-50%, -50%);
-	z-index: -10000;
-	overflow: hidden;
-	text-align: center;
-}
-
-@media (max-width: 1200px) {
-  #center-box {
-    width: 45%;
-  }
-}
-
-@media (max-width: 992px) {
-  #center-box {
-    width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  #center-box {
-    width: 75%;
-  }
-}
-
-@media (max-width: 576px) {
-  #center-box {
-    width: 100%;
-  }
-}
-
-#centerLogo{
-	width: 192px;
-	height: 108px;
-}
-
-/*Add vertical scaling for centre box*/
-
 #homeCenterButton{
 	background-color: rgb(195, 211, 177);
-	border-color: black;
+	border-color: rgb(195, 211, 177)
 }
 
 #homeCenterButton:hover{
 	background-color: rgb(155, 168, 141);
+	border-color: rgb(155, 168, 141);
 }
 
 #productBody{
@@ -98,4 +54,29 @@ main{
 
 .card-body{
 	padding: 0px 20px 20px 20px;
+}
+
+#contactJumbo{
+	background-image: url(images/homeBGDarker.jpg);
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+#contactButton{
+	background-color: rgb(195, 211, 177);
+	border-color: rgb(195, 211, 177)
+}
+
+#contactButton:hover{
+	background-color: rgb(155, 168, 141);
+	border-color: rgb(155, 168, 141);
+}
+
+.card-title{
+	padding:10px 0px 0px 0px !important;
+}
+
+#contactContainer{
+	text-align: center;
+	padding-bottom: 30px;
 }
