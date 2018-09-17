@@ -52,12 +52,6 @@
 	background-color: rgb(155, 168, 141);
 }
 
-#indexBody{
-	background-image: url(images/homeBG.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
 #productBody{
 	background-color: rgb(248, 248, 248);
 }
@@ -72,7 +66,7 @@
 }
 
 #productCare{
-	padding : 20px 35px 35px 35px;;
+	padding : 20px 35px 35px 35px;
 }
 
 footer{
@@ -80,4 +74,28 @@ footer{
 	font-size: 8px;
 	padding: 35px;
 	text-align: center;
+}
+
+#homeJumbo{
+	background-image: url(images/homeBGDarker.jpg);
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+.jumbotron{
+	border-radius: 0rem !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+main{
+	background-color: white !important;
+}
+
+.labelHeadings{
+	padding: 20px 20px 5px 20px;
+}
+
+.card-body{
+	padding: 0px 20px 20px 20px;
 }
