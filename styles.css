@@ -34,8 +34,8 @@ footer{
 
 #homeJumbo{
 	background-image: url(images/homeBGDarker.jpg);
-	padding-top: 15%;
-	padding-bottom: 15%;
+	padding-top: 12%;
+	padding-bottom: 12%;
 }
 
 .jumbotron{
@@ -79,4 +79,9 @@ main{
 #contactContainer{
 	text-align: center;
 	padding-bottom: 30px;
+}
+
+.lead {
+	max-width: 500px;
+	margin: 0 auto;
 }
