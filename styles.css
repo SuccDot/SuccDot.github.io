@@ -1,13 +1,13 @@
 #homeCenterButton, #mc-embedded-subscribe, #indexCardOneButton,
 #indexCardTwoButton, #indexCardThreeButton{
-	background-color: rgb(195, 211, 177);
-	border-color: rgb(195, 211, 177)
+	background-color: rgb(195, 211, 177) !important;
+	border-color: rgb(195, 211, 177) !important;
 }
 
 #homeCenterButton:hover, #mc-embedded-subscribe:hover, #indexCardOneButton:hover,
 #indexCardTwoButton:hover, #indexCardThreeButton:hover,{
-	background-color: rgb(155, 168, 141);
-	border-color: rgb(155, 168, 141);
+	background-color: rgb(155, 168, 141) !important;
+	border-color: rgb(155, 168, 141) !important;
 }
 
 #productBody{
