@@ -1,5 +1,6 @@
 #homeCenterButton, #indexCardOneButton,
 #indexCardTwoButton, #indexCardThreeButton,
+#contactCardOneButton, #contactCardTwoButton,
 #mc-embedded-subscribe{
 	background-color: rgb(195, 211, 177);
 	border-color: rgb(195, 211, 177);
@@ -7,6 +8,7 @@
 
 #homeCenterButton:hover, #indexCardOneButton:hover,
 #indexCardTwoButton:hover, #indexCardThreeButton:hover,
+#contactCardOneButton: hover, #contactCardTwoButton:hover,
 #mc-embedded-subscribe:hover{
 	background-color: rgb(155, 168, 141);
 	border-color: rgb(155, 168, 141);
