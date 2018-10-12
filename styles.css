@@ -101,3 +101,39 @@ main{
 	max-width: 540px;
 	margin: 0 auto;
 }
+
+#qutopiaRef{
+	color: silver;
+	font-size: 10px;
+}
+
+.card-header{
+	border-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	background-color: rgb(195, 211, 177);
+	border-color: rgb(195, 211, 177)
+	color: black;
+}
+
+.card{
+	border-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
+
+.btn-link {
+	color: black;
+}
+
+.btn-link:hover {
+	color: grey;
+}
+
+.card-body{
+	padding: 20px 20px 20px 20px !important;
+}
